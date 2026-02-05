@@ -1,0 +1,461 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Character DNA Schema",
+  "description": "参数化图像生成角色定义Schema",
+  "type": "object",
+  "required": ["id", "name", "version", "created_at"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "角色唯一标识符"
+    },
+    "name": {
+      "type": "string",
+      "description": "角色显示名称"
+    },
+    "version": {
+      "type": "string",
+      "description": "版本号",
+      "default": "1.0"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date",
+      "description": "创建日期"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date",
+      "description": "最后更新日期"
+    },
+    "body": {
+      "type": "object",
+      "description": "角色与身体参数模块",
+      "properties": {
+        "height_cm": {
+          "type": "number",
+          "description": "身高(cm)"
+        },
+        "weight_kg": {
+          "type": "number",
+          "description": "体重(kg)"
+        },
+        "body_type": {
+          "type": "string",
+          "enum": ["偏瘦", "匀称", "偏健美", "slender", "athletic", "curvy"],
+          "description": "体型类型"
+        },
+        "proportion_upper_lower": {
+          "type": "string",
+          "pattern": "^\\d+(:|/)\\d+$",
+          "description": "上身:下身比例，如 1:1.5"
+        },
+        "shoulder_width_cm": {
+          "type": "number",
+          "description": "肩宽(cm)"
+        },
+        "bust_waist_hip_cm": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 3,
+          "maxItems": 3,
+          "description": "胸/腰/臀围 [胸围, 腰围, 臀围]"
+        },
+        "leg_length_cm": {
+          "type": "number",
+          "description": "腿长(cm)"
+        },
+        "thigh_circumference_cm": {
+          "type": "number",
+          "description": "大腿围(cm)"
+        },
+        "calf_circumference_cm": {
+          "type": "number",
+          "description": "小腿围(cm)"
+        },
+        "neck_length_cm": {
+          "type": "number",
+          "description": "颈长(cm)"
+        },
+        "arm_circumference_cm": {
+          "type": "number",
+          "description": "手臂围(cm)"
+        },
+        "foot_length_cm": {
+          "type": "number",
+          "description": "脚长(cm)"
+        },
+        "ankle_circumference_cm": {
+          "type": "number",
+          "description": "脚踝围(cm)"
+        }
+      }
+    },
+    "face": {
+      "type": "object",
+      "description": "面部结构参数模块",
+      "properties": {
+        "face_shape": {
+          "type": "string",
+          "enum": ["鹅蛋脸", "圆脸", "方脸", "心形脸", "oval", "round", "square", "heart"],
+          "description": "脸型"
+        },
+        "face_ratio": {
+          "type": "string",
+          "pattern": "^\\d+\\.?\\d*(:|/)\\d+\\.?\\d*$",
+          "description": "脸长宽比，如 1.4:1"
+        },
+        "jaw_v_angle": {
+          "type": "number",
+          "minimum": 90,
+          "maximum": 150,
+          "description": "下颌V形角度(度)"
+        },
+        "cheekbone_height_cm": {
+          "type": "number",
+          "description": "颧骨突出高度(cm)"
+        },
+        "chin_sharpness_angle": {
+          "type": "number",
+          "description": "下巴尖度(度)"
+        },
+        "face_symmetry_percent": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "脸部对称度(%)"
+        },
+        "eye_shape": {
+          "type": "string",
+          "enum": ["almond", "round", "fox", "杏眼", "圆眼", "狐狸眼"],
+          "description": "眼型"
+        },
+        "eye_size_cm": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "眼睛尺寸 [长, 宽](cm)"
+        },
+        "eye_distance_cm": {
+          "type": "number",
+          "description": "眼距(cm)"
+        },
+        "eye_fold_width_mm": {
+          "type": "number",
+          "description": "眼皮褶宽度(mm)"
+        },
+        "pupil_diameter_mm": {
+          "type": "number",
+          "description": "瞳孔直径(mm)"
+        },
+        "iris_color": {
+          "type": "string",
+          "description": "虹膜颜色"
+        },
+        "nose_bridge_height_cm": {
+          "type": "number",
+          "description": "鼻梁高度(cm)"
+        },
+        "nose_wing_width_cm": {
+          "type": "number",
+          "description": "鼻翼宽度(cm)"
+        },
+        "nose_tip_tilt_angle": {
+          "type": "number",
+          "description": "鼻尖上翘角度(度)"
+        },
+        "lip_width_cm": {
+          "type": "number",
+          "description": "唇宽(cm)"
+        },
+        "lip_thickness_cm": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "唇厚度 [上唇, 下唇](cm)"
+        },
+        "lip_peak_prominence_mm": {
+          "type": "number",
+          "description": "唇珠突出度(mm)"
+        },
+        "ear_height_cm": {
+          "type": "number",
+          "description": "耳廓高度(cm)"
+        },
+        "forehead_width_cm": {
+          "type": "number",
+          "description": "额头宽度(cm)"
+        },
+        "forehead_height_cm": {
+          "type": "number",
+          "description": "额头高度(cm)"
+        }
+      }
+    },
+    "skin": {
+      "type": "object",
+      "description": "肤质参数模块",
+      "properties": {
+        "skin_tone": {
+          "type": "string",
+          "enum": ["冷白皮", "暖白皮", "自然肤色", "健康肤色", "cool porcelain", "warm ivory", "natural"],
+          "description": "肤色类型"
+        },
+        "pantone_ref": {
+          "type": "string",
+          "description": "Pantone色号参考"
+        },
+        "foundation_brand": {
+          "type": "string",
+          "description": "粉底品牌色号"
+        },
+        "reflectance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "皮肤反射率(0-1)"
+        },
+        "dewy_intensity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "水光效果强度(0-1)"
+        },
+        "pore_density_per_cm2": {
+          "type": "number",
+          "description": "毛孔密度(个/cm²)"
+        },
+        "skin_texture": {
+          "type": "string",
+          "enum": ["smooth", "natural", "detailed", "磨皮", "自然", "保留纹理"],
+          "description": "皮肤纹理处理"
+        }
+      }
+    },
+    "makeup": {
+      "type": "object",
+      "description": "妆容参数模块",
+      "properties": {
+        "brow": {
+          "type": "object",
+          "properties": {
+            "pantone": { "type": "string", "description": "眉色Pantone" },
+            "color": { "type": "string", "description": "眉色描述" },
+            "arc_angle": { "type": "number", "description": "眉峰弧度(度)" },
+            "tail_drop_angle": { "type": "number", "description": "眉尾下垂角度(度)" },
+            "density_per_cm": { "type": "number", "description": "眉毛密度(根/cm)" },
+            "length_cm": { "type": "number", "description": "眉长(cm)" }
+          }
+        },
+        "eyeshadow": {
+          "type": "object",
+          "properties": {
+            "brand": { "type": "string", "description": "眼影品牌色号" },
+            "color": { "type": "string", "description": "眼影颜色" },
+            "coverage_cm2": { "type": "number", "description": "覆盖范围(cm²)" },
+            "saturation": { "type": "number", "minimum": 0, "maximum": 1, "description": "饱和度(0-1)" }
+          }
+        },
+        "eyeliner": {
+          "type": "object",
+          "properties": {
+            "width_mm": { "type": "number", "description": "线宽(mm)" },
+            "extension_mm": { "type": "number", "description": "眼尾延长(mm)" },
+            "tilt_angle": { "type": "number", "description": "上扬角度(度)" },
+            "brand": { "type": "string", "description": "眼线品牌色号" }
+          }
+        },
+        "eyelashes": {
+          "type": "object",
+          "properties": {
+            "length_mm": { "type": "number", "description": "睫毛长度(mm)" },
+            "curl_angle": { "type": "number", "description": "卷翘角度(度)" },
+            "style": { "type": "string", "description": "睫毛款式" }
+          }
+        },
+        "blush": {
+          "type": "object",
+          "properties": {
+            "color": { "type": "string", "description": "腮红色相" },
+            "diameter_cm": { "type": "number", "description": "范围直径(cm)" },
+            "saturation": { "type": "number", "minimum": 0, "maximum": 1, "description": "饱和度(0-1)" }
+          }
+        },
+        "lip": {
+          "type": "object",
+          "properties": {
+            "brand": { "type": "string", "description": "唇妆品牌色号" },
+            "color": { "type": "string", "description": "唇色" },
+            "pantone": { "type": "string", "description": "Pantone色号" },
+            "saturation": { "type": "number", "minimum": 0, "maximum": 1, "description": "饱和度(0-1)" },
+            "reflectance": { "type": "number", "minimum": 0, "maximum": 1, "description": "光泽反射率(0-1)" },
+            "has_glitter": { "type": "boolean", "description": "是否含细闪" }
+          }
+        },
+        "highlight": {
+          "type": "object",
+          "properties": {
+            "areas": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "高光区域"
+            },
+            "intensity": { "type": "number", "minimum": 0, "maximum": 1, "description": "高光强度(0-1)" }
+          }
+        }
+      }
+    },
+    "hair": {
+      "type": "object",
+      "description": "发型参数模块",
+      "properties": {
+        "color": {
+          "type": "string",
+          "description": "发色"
+        },
+        "length_cm": {
+          "type": "number",
+          "description": "发长(cm)"
+        },
+        "style": {
+          "type": "string",
+          "description": "发型款式"
+        },
+        "texture": {
+          "type": "string",
+          "enum": ["straight", "wavy", "curly", "直发", "波浪", "卷发"],
+          "description": "发质"
+        },
+        "parting_ratio": {
+          "type": "string",
+          "pattern": "^\\d+:\\d+$",
+          "description": "分线比例，如 3:7"
+        },
+        "strand_diameter_mm": {
+          "type": "number",
+          "description": "发丝直径(mm)"
+        },
+        "reflectance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "发丝光泽反射率(0-1)"
+        },
+        "accessories": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "发饰"
+        }
+      }
+    },
+    "clothing": {
+      "type": "object",
+      "description": "服装参数模块",
+      "properties": {
+        "top": {
+          "type": "string",
+          "description": "上装"
+        },
+        "bottom": {
+          "type": "string",
+          "description": "下装"
+        },
+        "outerwear": {
+          "type": "string",
+          "description": "外套"
+        },
+        "shoes": {
+          "type": "string",
+          "description": "鞋子"
+        },
+        "accessories": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "配饰列表"
+        },
+        "fabric_texture": {
+          "type": "string",
+          "description": "面料质感"
+        },
+        "fabric_reflectance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "面料光泽反射率(0-1)"
+        }
+      }
+    },
+    "expression": {
+      "type": "object",
+      "description": "表情参数模块",
+      "properties": {
+        "gaze_direction": {
+          "type": "string",
+          "enum": ["up", "down", "left", "right", "forward", "向上", "向下", "向左", "向右", "正视"],
+          "description": "视线方向"
+        },
+        "eyelid_droop_angle": {
+          "type": "number",
+          "description": "眼睑下垂角度(度)"
+        },
+        "eyeball_rotation_angle": {
+          "type": "number",
+          "description": "眼球转动角度(度)"
+        },
+        "mouth_state": {
+          "type": "string",
+          "enum": ["closed", "slightly-open", "open", "smiling", "闭合", "微张", "张开", "微笑"],
+          "description": "嘴巴状态"
+        },
+        "mouth_opening_mm": {
+          "type": "number",
+          "description": "唇部微张距离(mm)"
+        },
+        "head_tilt_angle": {
+          "type": "number",
+          "description": "头部倾斜角度(度)"
+        },
+        "neck_forward_angle": {
+          "type": "number",
+          "description": "颈部前倾角度(度)"
+        },
+        "overall_mood": {
+          "type": "string",
+          "description": "整体气质"
+        }
+      }
+    },
+    "default_pose": {
+      "type": "object",
+      "description": "默认姿势参数模块",
+      "properties": {
+        "stance": {
+          "type": "string",
+          "description": "姿态类型"
+        },
+        "body_tilt_angle": {
+          "type": "number",
+          "description": "身体倾斜角度(度)"
+        },
+        "body_tilt_direction": {
+          "type": "string",
+          "description": "倾斜方向"
+        },
+        "hand_position": {
+          "type": "string",
+          "description": "手部位置"
+        },
+        "holding_object": {
+          "type": "string",
+          "description": "手持物品"
+        },
+        "feet_distance_cm": {
+          "type": "number",
+          "description": "双脚间距(cm)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+"JK女孩地铁肖像主题中文提示词": {
+"整体风格": "真人电影剧照，PF风格，电影级写实人类",
+"参数": "--stylize 0 --iw 1.8 --q 2 --ar 9:21"
+},
+"角色描述": {
+"身份": "极其精致的东亚女偶像muse级别女子脸部，角色脸部为东亚顶级偶像级精致五官，same face identity, same facial proportions as reference but elevated to muse celebrity-grade beauty standards",
+"身体测量": {
+"身高": "约180cm，几乎碰到车顶（车顶高度约200cm，头部距离车顶约20cm）",
+"体重": "约60kg",
+"胸腰臀": "胸围90cm、腰围62cm（腰部最细处围度）、臀围92cm（臀峰高度约5cm）",
+"其他身体部位": {
+"颈部": "修长天鹅颈长度约15cm，颈部皮肤光滑伴轻微颈纹深度0.2mm",
+"肩膀": "肩宽约38cm，肩部线条柔和圆润无明显肩峰",
+"手部": "纤细手指长度约8-10cm，指关节轻微突出约0.5mm，手背静脉可见直径1mm",
+"足部": "脚长约25cm，脚踝围约20cm，脚趾排列整齐伴轻微趾缝"
+}
+},
+"面部细节": {
+"面部形状": "精致鹅蛋脸（脸长宽比约1.4:1，颧骨柔和突出高度约1cm，下颌线条流畅优雅V形角度约120度，下巴尖度约30度，整体呈现东亚muse女偶像级精美轮廓伴脸部对称度99%）",
+"五官各处": {
+"眼睛": "杏仁形大眼睛（眼长约3cm，眼宽约1.2cm，眼距约3.5cm），双眸深邃伴内双褶宽度约2mm，眼白纯净伴轻微血丝，瞳孔直径约4mm，虹膜纹理细腻呈深棕色渐变",
+"鼻子": "高挺鼻梁高度约1.5cm，鼻翼宽度约2.5cm，鼻尖圆润微翘角度约10度，鼻孔形状椭圆伴轻微鼻毛可见",
+"嘴巴": "樱桃小嘴唇宽约4cm，上唇厚度约0.8cm，下唇厚度约1cm，唇峰鲜明伴唇珠突出约0.5mm，牙齿整齐洁白伴门牙间隙约0.1mm",
+"耳朵": "小巧耳廓高度约6cm，耳垂厚度约0.5cm，无明显耳洞痕迹",
+"额头": "饱满额头宽度约12cm，高约6cm，额纹轻微深度0.1mm"
+},
+"肤色与底妆": "粉嫩的冷白皮在TikTok/小红书网红瓷肌冷白皮风格（去掉过于真实的皮肤纹理，伴时代妆容和磨皮效果），整个人皮肤在外的部分一点点幽幽朦胧光感，韩系水光肌底妆Pantone Cool Gray 1C，皮肤反射率约0.9，皮肤呈现极致通透‘会发光’质感伴水光效果强度0.7，T区与颧骨轻扫水光高光（高光位置集中在鼻梁中段长度5cm、鼻尖直径1cm、眉骨弧度、颧骨顶点面积2cm²、唇珠上方0.5cm），底妆细腻无瑕但保留真实毛孔微纹理密度约50个/cm²，使用YSL粉底色号BD10 Porcelain",
+"妆容": {
+"眉毛": "自然细眉，眉色浅棕（偏灰棕调Pantone 7536C），眉峰柔和弧度约15度，眉尾微微下垂约5-8度，自带优雅温柔气质，眉毛密度自然偏疏约30根/cm，眉形干净流畅长度约5cm",
+"眼影": "浅粉色珠光眼影打底（覆盖整个眼窝面积约4cm²，轻微珠光带细闪颗粒直径0.01mm，使用Dior眼影色号Pink Corolla 001），眼尾用中棕眼影小范围晕染（晕染范围不超过眼尾0.8cm，呈自然渐层烟熏感深度渐变0-0.5，Pantone 7531C），整体眼妆清透精致饱和度0.6",
+"眼线": "内眼线细致贴合睫毛根部线宽0.1mm + 眼尾延长2mm微翘眼线（上扬角度约10-15度，线条纤细自然不夸张，使用Chanel眼线笔色号Noir Intense）",
+"下眼睑": "卧蚕用珠光白提亮（珠光颗粒细腻直径0.005mm，位置集中在下眼睑中段长度2cm，营造天生饱满卧蚕效果体积约0.3cm³，使用NARS高光色号Albatross）",
+"睫毛": "睫毛自然卷翘如天生（中段卷翘角度约50-60度，长度自然渐变从根部5mm到尖端10mm，无明显假睫毛痕迹，使用Lancome睫毛膏色号Black）",
+"腮红": "粉橘色水光质地腮红，轻点苹果肌（从苹果肌中心向外轻扫直径3cm，与底妆完美融合成自然红晕，边缘无明显分界饱和度0.4，使用Benefit腮红色号Dandelion）",
+"唇部": "镜面淡粉色唇釉（偏樱花粉调Pantone 13-1907 TPG，低饱和自然0.5），成膜后呈现玻璃感十足的高光泽反射率0.9，唇中叠涂细闪颗粒（细闪集中在唇珠与唇峰位置面积1cm²，营造水润3D唇感，使用MAC唇釉色号Russian Red）"
+},
+"美甲": "自然短圆形美甲长度约0.5cm，涂抹透明粉色指甲油（Pantone 12-1305 TPG，光泽度0.8），指甲边缘整齐无毛刺，指甲床粉嫩伴轻微月牙白面积0.2cm²，无额外装饰"
+},
+"头发": "黑色直长发长度约60cm（发丝直径约0.08mm，分线位置侧分偏右约3:7，扎成高马尾位置头顶后方10cm），same ponytail black hair with same parting and strands, realistic hair texture with individual strands and subtle volume伴发丝光泽反射率0.6，散乱发丝数量约10-15根，发卡是弥豆子Q版（底部有playforge金属logo）"
+},
+"表情细节": {
+"整体表情": "same expression: 眼睛低垂注视手机（眼睑下垂角度约30度，眼球向下转动15度），嘴角自然平直（无明显上扬或下垂，唇部微张约0.2mm），整体气质融合东亚muse女偶像的优雅专注与轻微疏离，眉心轻微皱纹深度0.1mm",
+"头部倾斜": "头部微微向下倾斜约10度，颈部前倾角度5度"
+},
+"服装细节": {
+"服装": "wearing the exact same navy blue school uniform blazer with white shirt underneath, plaid pleated skirt, white fluffy scarf around neck with red bottom black text playforge label, black knee-high socks, black loafers（制服材质厚度约1mm，裙子褶皱间距约2cm，围巾毛绒密度约500根/cm²，袜子高度约40cm，鞋子鞋跟高度约2cm）",
+"袖子": "long sleeves on blazer（袖长约60cm，袖口收紧约1cm）",
+"领子": "standard blazer collar with white shirt collar visible（领高约4cm，白色衬衫领子翻折角度90度）",
+"镶边": "plaid pattern on skirt（格子尺寸约2x2cm，颜色海军蓝与灰白交织Pantone 19-3920 TCX）",
+"纽扣": "gold buttons on blazer（按钮直径约1.5cm，数量5个，材质黄铜光泽反射率0.7）",
+"开叉": "no slits on skirt, skirt length short revealing long slender thighs（裙长约30cm，大腿围约50cm，腿部修长比例约1:1.8全身，裙摆褶皱数量约20个）",
+"面料": "wool-like fabric texture on blazer and skirt exactly as reference, fabric sheen and highlights matching reference lighting（光泽反射率约0.4，织物纹理密度约100线/cm）"
+},
+"体格与肌肉细节": {
+"整体体格": "slender tall female physique, exaggerated long legs with slim athletic build（腿长约110cm，下身比例拉长上身:下身1:1.5），same exact body proportions and subtle muscle definition as reference, photorealistic muscle subtleties and fiber detail under cinematic lighting, subtle skin sheen without oiliness反射率0.3",
+"腹肌": "flat toned abs（腹部平坦无明显轮廓，肚脐周围皮肤轻微纹理深度0.2mm，肚脐形状椭圆直径1cm）",
+"手臂": "slender arms（手臂围约25cm，前臂轻微线条肌纤维可见，二头肌峰值高度约1cm）",
+"臀部与臀肌": "narrow hips and subtle glutes（臀围92cm，臀部圆润但不夸张隆起高度3cm，臀沟深度2cm）, slim hips（骨盆宽度约35cm）",
+"腿部": "extremely long slender toned legs（小腿围约32cm，大腿修长直线条长度60cm，膝盖骨轻微突出高度0.5cm，腿部肌肉柔和无明显分离股四头肌轮廓柔和）",
+"整体肌肉分离": "整体肌肉分离度约20%，皮肤下浅层纹理高频细节完整保留包括浅静脉网络直径0.5-1mm"
+},
+"姿势与动作细节": {
+"整体姿势": "same exact pose: standing leaning against car door（身体倾斜角度约10度，背部接触门面积约40x20cm），holding phone with both hands at chest level（手机高度约120cm，手机尺寸约15x7cm），legs straight with feet shoulder-width apart（脚间距约30cm，体重分布均匀），looking down at phone（头部低垂角度10度，眼球焦点在手机屏幕中心）",
+"手部放置": "both hands holding phone（手指自然握持，左手拇指在上位置，右手食指轻触屏幕，手腕弯曲角度20度）"
+},
+"灯光与氛围": {
+"灯光设置": "cinematic lighting setup exactly as reference, brighter interior car lighting with subtle rim light on hair and body contours（边缘光强度约0.5，强调腿部轮廓长度100cm与脸部五官高光）",
+"效果": "soft diffused brighter interior light（辉光强度约0.3，扩散半径约5像素），subtle volumetric light from windows（体积光密度约0.1，光束角度45度）, realistic car interior atmosphere伴轻微振动效果",
+"地面": "metallic car floor with minor reflections（地面反射率约0.3，无水洼，地面纹理磨损深度0.1mm）",
+"颜色分级": "same color grading neutral-warm tone（暖色调饱和度约0.8，红移偏移0.05），medium contrast with soft shadows and even highlights（对比度约1.0，阴影深度约0.4，高光亮度约0.9），脸部肌肤在光线下自然突出水光效果0.6",
+"胶片效果": "film grain subtle（颗粒大小约0.02mm，密度约1000颗粒/像素）"
+},
+"背景与场景细节": {
+"背景": "inside brighter lit car interior with white walls, handrails, seats, advertisements on walls（无特定建筑细节，车顶高度约200cm，墙壁颜色Pantone Cool Gray 1C，手柄直径3cm，座位颜色紫色Pantone 19-3832 TCX，广告尺寸约100x50cm）",
+"道具": "navy blue shoulder bag with bear keychain hanging and playforge rainbow-colored metal letter badge（包尺寸约30x20cm，材质帆布厚度1mm，熊挂件高度约5cm，毛绒材质棕色Pantone 18-1160 TCX），subtle other passengers in blur（乘客数量约3-5人，模糊度0.8）",
+"景深": "shallow depth of field（景深范围约50cm-100cm，焦点在角色脸部与上身，背景模糊半径10像素）",
+"镜头": "same lens focal length feel (wide angle for interior, 焦距约35mm，畸变率0.2)"
+}
+}

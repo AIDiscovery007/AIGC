@@ -1,0 +1,161 @@
+{
+  "id": "chinese-influencer-001",
+  "name": "中国网红美女",
+  "version": "2.3",
+  "created_at": "2026-02-05",
+  "updated_at": "2026-02-05",
+  "body": {
+    "height_cm": 168,
+    "weight_kg": 46,
+    "body_type": "slender curvy",
+    "proportion_upper_lower": "1:1.35",
+    "shoulder_width_cm": 41,
+    "shoulder_type": "straight angular square",
+    "shoulder_angle": 175,
+    "bust_waist_hip_cm": [85, 56, 88],
+    "leg_length_cm": 102,
+    "thigh_circumference_cm": 45,
+    "calf_circumference_cm": 27,
+    "calf_shape": "slender elegant featured",
+    "neck_length_cm": 11,
+    "arm_length_cm": 21,
+    "arm_circumference_cm": 21,
+    "ankle_circumference_cm": 16,
+    "body_notes": "golden ratio 1:1.35 proportions, elegant silhouette, angular square shoulders 175° sharp"
+  },
+  "face": {
+    "face_shape": "oval delicate",
+    "face_ratio": "1.28:1",
+    "jaw_v_angle": 112,
+    "jaw_type": "sharp V-line",
+    "cheekbone_height_cm": 0.78,
+    "chin_sharpness_angle": 34,
+    "chin_type": "small tapered",
+    "face_symmetry_percent": 99,
+    "eye_shape": "round almond",
+    "eye_size_cm": [2.8, 1.2],
+    "eye_distance_cm": 3.2,
+    "eye_type": "slightly wide set",
+    "eye_fold_width_mm": 3.0,
+    "eyelid_type": "fan-shaped double eyelid prominent",
+    "pupil_diameter_mm": 3.9,
+    "iris_color": "warm brown",
+    "nose_bridge_height_cm": 1.35,
+    "nose_wing_width_cm": 1.95,
+    "nose_tip_tilt_angle": 9,
+    "nose_type": "straight",
+    "lip_width_cm": 3.5,
+    "lip_thickness_cm": [1.1, 1.3],
+    "lip_type": "puffy minimal",
+    "lip_color": "natural pink",
+    "lip_peak_prominence_mm": 1.1,
+    "face_notes": "delicate oval face, sharp V-line jaw 112°, 99% symmetry"
+  },
+  "skin": {
+    "skin_tone": "fair porcelain",
+    "pantone_ref": "Warm Gray 1C",
+    "foundation_brand": "Perfect Diary Porcelain",
+    "reflectance": 0.85,
+    "dewy_intensity": 0.7,
+    "skin_texture": "smooth flawless",
+    "pore_density_per_cm2": 40,
+    "skin_detail": "flawless smooth porcelain skin, dewy radiance, translucent"
+  },
+  "makeup": {
+    "brow": {
+      "color": "soft dark brown",
+      "pantone": "7532C",
+      "arc_angle": 12,
+      "tail_drop_angle": 3,
+      "density_per_cm": 40,
+      "length_cm": 5.0,
+      "style": "natural"
+    },
+    "eyeshadow": {
+      "color": "warm brown",
+      "brand": "natural",
+      "coverage_cm2": 2.5,
+      "saturation": 0.35,
+      "style": "subtle natural"
+    },
+    "eyeliner": {
+      "width_mm": 0.15,
+      "extension_mm": 1.8,
+      "tilt_angle": 6,
+      "style": "natural"
+    },
+    "eyelashes": {
+      "length_mm": 8,
+      "curl_angle": 50,
+      "style": "soft dramatic lashes"
+    },
+    "blush": {
+      "color": "peach",
+      "diameter_cm": 2.8,
+      "saturation": 0.35
+    },
+    "lip": {
+      "color": "natural pink",
+      "pantone": "693C",
+      "saturation": 0.4,
+      "reflectance": 0.55,
+      "has_glitter": false,
+      "style": "natural"
+    },
+    "highlight": {
+      "areas": ["nose bridge", "cheekbones", "brow bone", "chin"],
+      "intensity": 0.5
+    }
+  },
+  "hair": {
+    "color": "black",
+    "length_cm": 45,
+    "style": "shoulder length soft wavy",
+    "texture": "soft wavy",
+    "parting_ratio": "2:8",
+    "bangs": "air bangs curtain fringe face-framing",
+    "face_framing_strands": "natural wispy strands beside cheeks",
+    "strand_diameter_mm": 0.05,
+    "reflectance": 0.6,
+    "accessories": ["none"]
+  },
+  "clothing": {
+    "top": "off-shoulder bodycon mini dress",
+    "outerwear": "none",
+    "bottom": "integrated mini dress",
+    "shoes": "nude stilettos pointed toe",
+    "accessories": ["delicate gold earrings"],
+    "fabric_texture": "stretchy ribbed knit",
+    "fabric_reflectance": 0.35,
+    "style_notes": "off-shoulder bodycon mini dress tight figure-hugging stretchy ribbed knit"
+  },
+  "expression": {
+    "gaze_direction": "slightly-down",
+    "eyelid_droop_angle": 8,
+    "eyeball_rotation_angle": 5,
+    "mouth_state": "neutral-seductive",
+    "mouth_opening_mm": 0.5,
+    "head_tilt_angle": 8,
+    "neck_forward_angle": 3,
+    "overall_mood": "elegant mysterious with confident allure"
+  },
+  "default_pose": {
+    "stance": "seated elegant on sleek surface",
+    "body_tilt_angle": 12,
+    "body_tilt_direction": "camera",
+    "hand_position": "resting on surface",
+    "holding_object": "none",
+    "leg_position": "one leg crossed one leg extended forward",
+    "leg_feature": "extended leg toward camera dramatic foreshortening emphasizing 102cm legs",
+    "feet_distance_cm": 30,
+    "pose_notes": "seated pose on sleek surface, one leg crossed one leg extended forward dramatic foreshortening, calf 27cm featured"
+  },
+  "camera_preferences": {
+    "preferred_angle": "low angle from knee level up",
+    "lens_focal_length": "35mm",
+    "perspective": "dramatic perspective vanishing point composition, foreshortening effect, depth perspective",
+    "background": "light blue studio background with depth blur",
+    "lighting": "chiaroscuro lighting soft shadows",
+    "notes": "low angle from knee level emphasizing height elongated legs, 35mm lens sharp focus face extended leg, cinematic depth 3/4 view"
+  }
+}
