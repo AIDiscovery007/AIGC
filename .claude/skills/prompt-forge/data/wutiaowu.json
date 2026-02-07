@@ -1,0 +1,213 @@
+{
+  "id": "wutiaowu",
+  "name": "五条悟",
+  "version": "1.0.0",
+  "created_at": "2026-02-06T16:30:00Z",
+  "updated_at": "2026-02-06T16:30:00Z",
+  "source_image": "wutiaowu.jpg",
+  "description": "真人风格角色，修长颈部精瘦体型，自然下巴线条，细长上挑狐狸眼，高挺窄鼻，薄唇上扬嘴角，自信神态，自然蓬松碎盖发型，正面微仰姿态，真实皮肤质感",
+  "conversion_type": "manga_to_realistic",
+  "analysis_metadata": {
+    "analysis_version": "2.0.0",
+    "detail_level": "pixel",
+    "image_quality": "manga_lineart",
+    "overall_confidence": 0.82,
+    "confidence_breakdown": {
+      "A级-直接可测": 0.45,
+      "B级-比例推算": 0.33,
+      "C级-经验估算": 0.17,
+      "D级-场景推断": 0.05
+    }
+  },
+  "body": {
+    "gender": "male",
+    "body_type": "lean slender",
+    "build": "slender with defined neck",
+    "neck_length_cm": {
+      "value": 14,
+      "range": "13-15",
+      "description": "elongated visible neck",
+      "certainty": 0.80
+    },
+    "neck_definition": "visible Adam's apple and tendon lines",
+    "shoulder_width": "medium-wide",
+    "shoulder_posture": "slightly raised relaxed"
+  },
+  "face": {
+    "face_shape": "oval-oblong with defined chin",
+    "face_ratio": "1.4:1",
+    "jawline": "defined but soft natural",
+    "chin_shape": "defined with slight roundness",
+    "chin_prominence": "noticeable but not extreme",
+    "eye_shape": "narrow fox eyes with upward outer tilt",
+    "eye_tilt": "distinct upward outer corner",
+    "eye_size": "medium-narrow elongated",
+    "eye_length_cm": {
+      "value": 3.4,
+      "range": "3.2-3.6",
+      "certainty": 0.75
+    },
+    "eye_width_cm": {
+      "value": 1.0,
+      "range": "0.9-1.1",
+      "certainty": 0.72
+    },
+    "eye_distance": "medium-wide set",
+    "eye_fold": "visible inner double eyelid",
+    "eye_emphasis": "narrow elongated captivating",
+    "eyebrow_shape": "slender straight with sharp arch",
+    "eyebrow_thickness": "thin to medium",
+    "eyebrow_length": "long extending past eye corner",
+    "eyebrow_arch": "distinct outer arch",
+    "nose_bridge": "straight high prominent",
+    "nose_bridge_height_cm": {
+      "value": 1.7,
+      "range": "1.5-1.9",
+      "certainty": 0.70
+    },
+    "nose_wing_width": "narrow",
+    "nose_tip_shape": "refined pointed",
+    "lip_fullness": "thin",
+    "lip_shape": "straight line with upturned corners",
+    "mouth_corner_angle": "distinct upward smirk",
+    "lip_peak_prominence": "subtle minimal",
+    "facial_contouring": "soft natural shadows",
+    "facial_asymmetry": "subtle natural asymmetry in eyes and smile",
+    "facial_symmetry": "natural human asymmetry"
+  },
+  "skin": {
+    "skin_tone": "fair to light medium with natural warmth",
+    "undertone": "neutral with subtle warmth",
+    "skin_texture": "natural human skin with visible pores and subtle imperfections",
+    "complexion": "natural even with realistic texture",
+    "pore_visibility": "visible natural pores on nose and cheeks",
+    "micro_details": "fine lines, subtle skin texture variations, natural blemishes",
+    "contouring": "soft natural jawline definition",
+    "reflectance": {
+      "value": 0.7,
+      "range": "0.65-0.75",
+      "certainty": 0.70
+    }
+  },
+  "makeup": {
+    "base": "natural flawless",
+    "contouring": "subtle jawline definition",
+    "eye_definition": "natural sharp",
+    "overall_intensity": "minimal natural"
+  },
+  "hair": {
+    "color": "white platinum silver",
+    "texture": "thick coarse with styling hold",
+    "length": "medium-long",
+    "length_cm": {
+      "top": { "value": 12, "range": "10-14", "description": "tall voluminous crown" },
+      "sides": { "value": 8, "range": "7-9", "description": "voluminous outward flaring sides" },
+      "back": { "value": 10, "range": "9-11", "description": "spiky upward back" },
+      "fringe": { "value": 9, "range": "8-10", "description": "messy fringe falling to eyebrows" }
+    },
+    "style": "explosive voluminous spiky textured crop (蓬松碎盖爆炸头)",
+    "fringe": "messy choppy bangs falling across forehead",
+    "fringe_texture": "uneven spiky strands",
+    "volume": "natural voluminous with realistic styling",
+    "volume_height_cm": {
+      "value": 6,
+      "range": "5-7",
+      "description": "natural styled crown height"
+    },
+    "styling": "natural textured with styling product",
+    "movement": "natural flow with slight tousled texture",
+    "parting": "none - all-over volume",
+    "hairline_type": "natural with volume coverage",
+    "flyaway_strands": "abundant spiky pieces for explosive texture",
+    "overall_vibe": "naturally voluminous textured styled",
+    "anti_patterns": ["flat", "slicked back", "neat", "uniform", "center part", "side part"],
+    "key_features": ["white", "spiky", "voluminous", "explosive", "upward", "outward", "messy", "textured"],
+    "strict_requirements": ["NO flat hair", "NO neat styling", "NO parting", "MUST have explosive volume", "MUST have upward spiky texture", "MUST be white/platinum color"],
+    "manga_to_realistic_note": "Maintain exaggerated volume but make it realistic with styling product texture"
+  },
+  "expression": {
+    "overall_mood": "confident arrogant with playful challenge",
+    "mouth_state": "smirk with slight lip part",
+    "mouth_description": "thin lips with distinct upward smirk",
+    "mouth_opening": "closed with slight part showing confidence",
+    "lip_corner_lift": {
+      "side": "both subtle",
+      "angle": "distinct upward",
+      "intensity": "noticeable confident"
+    },
+    "eye_state": "narrowed confident gaze",
+    "eyelid_droop": "slight relaxation showing confidence",
+    "gaze_direction": "direct forward with slight downward tilt",
+    "eye_contact": "intense challenging piercing",
+    "emotion": "arrogant confidence with underlying playfulness",
+    "attitude": "cocky self-assured invincible",
+    "smirk_quality": "knowing confident slightly mocking",
+    "eyebrow_position": "slight raise showing confidence",
+    "facial_tension": "relaxed with controlled arrogance"
+  },
+  "default_pose": {
+    "head_angle": {
+      "tilt_back": "slight upward 5 degrees",
+      "description": "front facing with slight upward tilt"
+    },
+    "gaze": "direct forward with slight downward angle",
+    "neck_position": "extended elongated showing throat",
+    "shoulder_position": "slightly raised relaxed",
+    "body_orientation": "front facing chest-up",
+    "overall_posture": "confident relaxed challenging"
+  },
+  "lighting": {
+    "setup": "natural soft lighting with film quality",
+    "main_light_direction": "natural front soft",
+    "shadow_quality": "soft natural edges with film grain",
+    "contrast": {
+      "value": 0.9,
+      "certainty": 0.75
+    },
+    "saturation": {
+      "value": 0.75,
+      "certainty": 0.70
+    },
+    "film_grain": "subtle natural grain",
+    "bokeh": "natural soft background blur"
+  },
+  "scene": {
+    "type": "clean minimal studio",
+    "background": "solid clean light color",
+    "shot_type": "chest-up close-up portrait",
+    "framing": "face and neck focus"
+  },
+  "rendering": {
+    "style": "cinematic photorealistic human portrait",
+    "detail_level": "high detail natural human features",
+    "conversion_note": "Real human skin texture, natural lighting, film grain, no CG smoothness",
+    "anti_cg": "NO perfect skin, NO artificial smoothness, NO plastic look",
+    "anti_anime": "NO anime cel shading, NO cartoon, NO stylized proportions",
+    "realistic_elements": [
+      "natural skin pores and texture",
+      "subtle facial asymmetry",
+      "natural hair strands with flyaways",
+      "film grain and natural lighting",
+      "soft shadows not crisp defined",
+      "natural eye reflection not glossy"
+    ]
+  },
+  "manga_lock_features": {
+    "must_preserve": [
+      "pointed chin V-face",
+      "narrow fox eyes with upward tilt",
+      "distinct confident smirk",
+      "explosive voluminous white hair",
+      "slight upward head tilt",
+      "confident challenging gaze",
+      "elongated visible neck"
+    ],
+    "adjust_for_realistic": [
+      "hair volume: exaggerated → voluminous but natural",
+      "eye size: manga large → realistic narrow shape",
+      "chin sharpness: extreme → defined but soft",
+      "proportions: stylized → realistic human ratios"
+    ]
+  },
+  "compression_string": "face[oval-pointed:1.45]+eye[narrow-fox:3.4x1.0:uptilt]+nose[straight-high:narrow]+lip[thin:smirk]+skin[fair:flawless]+hair[white:explosive:vol9cm:spiky]+expr[arrogant:confident:smirk]+pose[tilt-up:extended-neck]"
+}

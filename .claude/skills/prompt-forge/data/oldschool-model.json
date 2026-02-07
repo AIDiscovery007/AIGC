@@ -1,0 +1,126 @@
+{
+  "id": "oldschool-model",
+  "name": "民国风美女",
+  "version": "1.2.0",
+  "created_at": "2026-02-06T11:25:00Z",
+  "updated_at": "2026-02-06T11:35:00Z",
+  "description": "一位民国风美女，175cm，完美腰身比，长腿细腰，极美精致的脸庞，杏仁眼，复古优雅气质，单盘发有刘海，发尾自然下垂，直角肩，眼神清澈无辜，全身像",
+  "body": {
+    "height_cm": 175,
+    "build": "slender elegant",
+    "shoulder_width_cm": 40,
+    "shoulder_shape": "straight angular 90-degree shoulders",
+    "chest_waist_hip_cm": [86, 58, 88],
+    "leg_length_cm": 108,
+    "torso_to_leg_ratio": "1:1.6",
+    "waist_to_hip_ratio": 0.66,
+    "muscle_definition": "soft feminine curves",
+    "age_appearance": "young adult",
+    "gender": "female"
+  },
+  "face": {
+    "face_shape": "oval with delicate jawline",
+    "face_width_height_ratio": "1:1.35",
+    "eye_shape": "almond with slight upward tilt",
+    "eye_size": "large expressive",
+    "eye_distance": "1.1x eye width",
+    "nose_bridge": "straight delicate medium-high",
+    "nose_tip": "slightly upturned",
+    "lip_fullness": "medium-full",
+    "lip_shape": "classic bow with defined cupid's bow",
+    "eyebrow_shape": "arched willow leaf",
+    "eyebrow_thickness": "medium-thin",
+    "expression": "clear innocent doe-like eyes, pure and guileless gaze",
+    "overall_impression": "exquisite refined republic era beauty, porcelain doll-like features, innocent and pure temperament"
+  },
+  "skin": {
+    "skin_tone": "porcelain fair with cool undertone",
+    "skin_texture": "flawless smooth like porcelain",
+    "skin_finish": "luminous matte with subtle glow",
+    "undertone": "cool",
+    "detail_level": "maximum",
+    "micro_details": "fine translucent quality, barely visible pores"
+  },
+  "makeup": {
+    "base": "flawless porcelain foundation",
+    "eye_definition": "subtle eyeliner with winged tip",
+    "eyeshadow": "soft neutral tones",
+    "lip_tint": "classic red or rose",
+    "blush": "soft peach on cheekbones",
+    "overall_intensity": 0.6,
+    "style": "republic era vintage makeup"
+  },
+  "hair": {
+    "hair_length": "long",
+    "hair_style": "single side bun with bangs, loose strands framing face, ends draping naturally beside cheeks",
+    "hair_texture": "smooth with soft natural waves",
+    "hair_color": "jet black",
+    "hair_shine": "healthy lustrous sheen",
+    "hair_accessories": "pearl pins or vintage jade hairpin optional",
+    "bangs": "soft wispy bangs across forehead",
+    "face_framing": "loose tendrils naturally falling beside face"
+  },
+  "clothing": {
+    "style": "republic era qipao or vintage dress",
+    "top": {
+      "type": "fitted qipao bodice or high collar blouse",
+      "color": "jade green, burgundy, or navy",
+      "fit": "form-fitting emphasizing waist",
+      "material": "silk or brocade with subtle patterns",
+      "coverage": "high collar, cap sleeves or long sleeves",
+      "details": "mandarin collar, frog buttons, side slits"
+    },
+    "bottom": {
+      "type": "matching qipao skirt or wide leg trousers",
+      "color": "coordinated with top",
+      "fit": "fitted through hips flowing to hem",
+      "length": "ankle length with side slits",
+      "silhouette": "elegant column shape"
+    },
+    "accessories": [
+      {
+        "type": "pearl earrings",
+        "placement": "ears"
+      },
+      {
+        "type": "jade bracelet or vintage watch",
+        "placement": "wrist"
+      }
+    ]
+  },
+  "default_pose": {
+    "stance": "standing elegant with poise",
+    "weight_distribution": "slight shift to one leg",
+    "shoulder_angle": "relaxed level",
+    "spine_curve": "natural upright with grace",
+    "hand_position": "one hand at waist or holding vintage clutch",
+    "gaze_direction": "slight angle away from camera",
+    "overall_energy": "elegant refined nostalgic",
+    "framing": "full body shot, complete figure from head to toe",
+    "aspect_ratio": "9:16 portrait or 3:4",
+    "camera_angle": "slightly low angle to emphasize height"
+  },
+  "rendering": {
+    "style": "photorealistic with vintage color grading",
+    "detail_level": "hyper detailed maximum fidelity",
+    "texture_quality": "8K ultra high resolution",
+    "lighting_model": "soft diffused lighting with warm undertones",
+    "anti_anime": "NO anime style, NO cartoon, NO illustration",
+    "realism_enhancers": "subsurface scattering, realistic skin translucency, fabric texture detail",
+    "color_grading": "warm sepia undertones, muted palette, vintage film look"
+  },
+  "style_tags": [
+    "republic era beauty",
+    "vintage chinese aesthetic",
+    "elegant slender figure",
+    "porcelain skin",
+    "almond eyes",
+    "perfect waist to hip ratio",
+    "long legs",
+    "photorealistic",
+    "hyper detailed",
+    "8K resolution",
+    "NO anime",
+    "vintage color grading"
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "fuheishener",
+  "name": "伏黑甚尔",
+  "version": "1.0.0",
+  "created_at": "2026-02-06T14:30:00Z",
+  "updated_at": "2026-02-06T16:15:00Z",
+  "source_image": "1040g3g831s81444al606j006bh9gtk9esnr4le8.jpg",
+  "description": "年轻中国男性，暖黄皮肤，大而明亮的杏仁眼，高鼻梁，饱满唇形，黑色薄碎盖层次发型，薄刘海轻盈散落额头，发量适中偏薄，两侧短顶部稍长，自然空气感，M型发际线，头微微后仰左歪，眼神鄙夷高傲，松弛不屑表情，单边嘴角上扬的拽笑",
+  "analysis_metadata": {
+    "analysis_version": "2.0.0",
+    "detail_level": "pixel",
+    "image_quality": "good",
+    "image_resolution": "1178x665",
+    "overall_confidence": 0.78,
+    "confidence_breakdown": {
+      "A级-直接可测": 0.45,
+      "B级-比例推算": 0.40,
+      "C级-经验估算": 0.12,
+      "D级-场景推断": 0.03
+    }
+  },
+  "body": {
+    "gender": "male",
+    "height_cm": {
+      "value": 178,
+      "range": "175-180",
+      "certainty": 0.65,
+      "method": "基于头颈比例估算"
+    },
+    "body_type": "lean athletic",
+    "build": "slender with defined neck",
+    "neck_length_cm": {
+      "value": 13,
+      "range": "12-14",
+      "certainty": 0.70
+    },
+    "shoulder_shape": "straight medium width",
+    "skin_tone": "warm beige"
+  },
+  "face": {
+    "face_shape": "oval-oblong",
+    "face_ratio": "1.45:1",
+    "jaw_v_angle": {
+      "value": 125,
+      "certainty": 0.75
+    },
+    "chin_shape": "rounded with subtle point",
+    "eye_shape": "large almond with defined double eyelid",
+    "eye_tilt": "slight upward outer corner",
+    "eye_size_cm": {
+      "length": {
+        "value": 3.5,
+        "range": "3.3-3.7",
+        "certainty": 0.75
+      },
+      "width": {
+        "value": 1.3,
+        "range": "1.2-1.4",
+        "certainty": 0.72
+      }
+    },
+    "eye_emphasis": "enlarged bright captivating",
+    "eye_distance_cm": {
+      "value": 3.8,
+      "certainty": 0.72
+    },
+    "eye_fold": "visible double eyelid",
+    "upper_eyelid": "slight drooping effect",
+    "nose_bridge_height_cm": {
+      "value": 1.6,
+      "range": "1.4-1.8",
+      "certainty": 0.70
+    },
+    "nose_wing_width_cm": {
+      "value": 2.6,
+      "range": "2.4-2.8",
+      "certainty": 0.68
+    },
+    "nose_tip_shape": "rounded with subtle upturn",
+    "nose_tip_tilt_angle": {
+      "value": 8,
+      "certainty": 0.60
+    },
+    "lip_width_cm": {
+      "value": 4.5,
+      "range": "4.2-4.8",
+      "certainty": 0.72
+    },
+    "lip_thickness_cm": {
+      "upper": {
+        "value": 0.9,
+        "certainty": 0.65
+      },
+      "lower": {
+        "value": 1.1,
+        "certainty": 0.65
+      }
+    },
+    "lip_shape": "full with defined Cupid's bow",
+    "lip_peak_prominence": "noticeable",
+    "mouth_corner_angle": "upturned (smiling)",
+    "eyebrow_shape": "slender straight with refined arch",
+    "eyebrow_color": "black",
+    "eyebrow_thickness": "medium-thin",
+    "eyebrow_width_mm": {
+      "value": 6,
+      "range": "5-7",
+      "description": "slender and well-defined"
+    },
+    "eyebrow_arch": "gentle refined curve",
+    "ear_visibility": "partial (hair covered)",
+    "hairline": "M-shaped",
+    "facial_symmetry": "high"
+  },
+  "skin": {
+    "skin_tone": "warm beige",
+    "undertone": "warm",
+    "pantone_estimate": "7536C",
+    "reflectance": {
+      "value": 0.75,
+      "range": "0.70-0.80",
+      "certainty": 0.60
+    },
+    "skin_texture": "smooth with subtle natural texture",
+    "pore_visibility": "low",
+    "complexion": "even and clear",
+    "micro_details": "fine skin texture visible"
+  },
+  "makeup": {
+    "base": {
+      "type": "natural or none",
+      "coverage": "light to none",
+      "certainty": 0.70
+    },
+    "brow": {
+      "style": "natural",
+      "grooming": "possibly trimmed",
+      "certainty": 0.65
+    },
+    "eye": {
+      "eyeshadow": "none",
+      "eyeliner": "none",
+      "mascara": "none",
+      "certainty": 0.90
+    },
+    "lip": {
+      "product": "none or tinted balm",
+      "color": "natural pink",
+      "certainty": 0.70
+    },
+    "overall_intensity": "minimal to none"
+  },
+  "hair": {
+    "color": "black",
+    "texture": "straight with light choppy texture",
+    "length": "medium-short",
+    "length_cm": {
+      "top": { "value": 10, "range": "8-12", "description": "thinner top with light layers" },
+      "sides": { "value": 5, "range": "4-6", "description": "short thin sides" },
+      "back": { "value": 6, "range": "5-7", "description": "tapered thin back" }
+    },
+    "style": "light choppy textured crop with thin fringe (薄碎盖发型)",
+    "fringe": "thin choppy bangs lightly falling across forehead",
+    "fringe_texture": "light uneven strands with visible gaps",
+    "fringe_density": "thin sparse allowing forehead visibility",
+    "parting": "none - natural scattered thin fringe",
+    "layering": "light choppy layers with thinner density",
+    "volume": "light natural volume with thinner texture",
+    "volume_height_cm": {
+      "value": 3,
+      "range": "2-4",
+      "description": "light lift with thinner top"
+    },
+    "hair_density": "thin to medium",
+    "movement": "light strands falling naturally with airy texture",
+    "hairline_type": "M-shaped with light fringe coverage",
+    "flyaway_strands": "light scattered flyaways",
+    "overall_vibe": "light choppy airy with thinner undone look",
+    "anti_patterns": ["curly", "wavy", "center part", "middle part", "slicked back", "neat", "uniform", "thick", "dense", "heavy"],
+    "key_features": ["straight", "choppy", "thin", "light", "layered", "fringe", "airy", "sparse"],
+    "strict_requirements": ["NO center part", "NO middle part", "NO curly hair", "NO wavy hair", "NO neat uniform cut", "NO thick dense hair", "MUST have thin light fringe", "MUST have airy layered texture"]
+  },
+  "expression": {
+    "overall_mood": "arrogant disdain with relaxed superiority",
+    "mouth_state": "asymmetric smirk with relaxed corners",
+    "mouth_description": "single corner lifted in contemptuous half-smile",
+    "mouth_opening": "closed lips slightly parted in disdain",
+    "lip_corner_lift": {
+      "side": "right",
+      "angle": "slight upward tilt",
+      "intensity": "subtle but noticeable"
+    },
+    "eye_state": "half-lidded with condescending gaze",
+    "eyelid_droop": "slight upper lid relaxation creating dismissive look",
+    "gaze_direction": "downward tilt with sideways glance",
+    "eye_contact": "looking down nose with contempt",
+    "emotion": "superior disdain mixed with relaxed boredom",
+    "attitude": "arrogant yet relaxed, looking down on everything",
+    "smirk_quality": "contemptuous effortless swagger",
+    "eyebrow_position": "slight raise showing disdain",
+    "facial_tension": "relaxed with subtle contempt"
+  },
+  "default_pose": {
+    "head_angle": {
+      "tilt_back": "slight backward 8 degrees",
+      "tilt_side": "left tilt 10 degrees",
+      "combined": "head tilted back and to the left"
+    },
+    "body_orientation": "front facing with relaxed shoulders",
+    "shoulder_level": "slightly relaxed uneven",
+    "neck_position": "extended with visible throat",
+    "overall_posture": "relaxed nonchalant leaning back"
+  },
+  "lighting": {
+    "setup": "soft diffused front light",
+    "main_light_direction": "front slightly above",
+    "shadow_quality": "soft edges",
+    "contrast": {
+      "value": 0.9,
+      "certainty": 0.70
+    },
+    "saturation": {
+      "value": 0.7,
+      "certainty": 0.75
+    },
+    "color_temperature": "neutral warm",
+    "rim_light": "none",
+    "fill_light": "natural ambient"
+  },
+  "scene": {
+    "type": "studio/plain background",
+    "background": "solid warm gray beige",
+    "background_blur": {
+      "value": 0.2,
+      "description": "slight"
+    },
+    "depth_of_field": "moderate",
+    "focal_length_estimate_mm": {
+      "value": 70,
+      "range": "50-85",
+      "certainty": 0.50
+    },
+    "shot_type": "close-up portrait",
+    "framing": "face and partial neck"
+  },
+  "rendering": {
+    "style": "photorealistic",
+    "detail_level": "high detail skin texture",
+    "reference_quality": "professional headshot",
+    "anti_anime": "NO anime style, NO cartoon, NO illustration"
+  },
+  "compression_string": "face[oval:1.45:125]+eye[large-almond:3.5x1.3:3.8]+nose[1.6:2.6:8]+lip[4.5:0.9/1.1]+skin[warm:0.75]+hair[black:thin:choppy:airy]+brow[slender:refined]+expr[disdain:arrogant:relaxed]+pose[tilt-back-left]"
+}

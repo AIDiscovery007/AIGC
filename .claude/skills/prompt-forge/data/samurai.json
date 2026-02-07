@@ -1,0 +1,143 @@
+{
+  "id": "samurai",
+  "name": "年轻武士",
+  "version": "2.0.0",
+  "created_at": "2026-02-06T10:30:00Z",
+  "updated_at": "2026-02-06T11:20:00Z",
+  "description": "一位年轻帅气的武士，身着黑色紧身衣与夸张白色宽松束脚裤，腰缠高位黑色绑带，腰挂武士刀，脚穿黑色布鞋，自然零碎发型，薄肌身材，全身构图，9:16竖版比例，真人写实风格，极致细节",
+  "body": {
+    "height_cm": 178,
+    "build": "slender athletic",
+    "shoulder_width_cm": 48,
+    "chest_waist_hip_cm": [95, 72, 88],
+    "leg_length_cm": 105,
+    "torso_to_leg_ratio": "1:1.55",
+    "muscle_definition": "lean muscle, thin athletic build, visible but not bulky muscles, subtle six-pack, defined but slender arms",
+    "age_appearance": "young adult",
+    "gender": "male"
+  },
+  "face": {
+    "face_shape": "oval with strong angular jawline",
+    "face_width_height_ratio": "1:1.32",
+    "eye_shape": "double eyelid, almond with slight upward tilt",
+    "eye_size": "medium-large, deep set",
+    "eye_distance": "1.05x eye width, slightly wide set",
+    "nose_bridge": "straight high prominent",
+    "nose_tip": "refined slightly rounded",
+    "lip_fullness": "medium-thin",
+    "lip_shape": "defined straight line, neutral expression",
+    "eyebrow_shape": "straight thick with sharp arch",
+    "eyebrow_thickness": "thick bold",
+    "expression": "intense confident piercing gaze",
+    "overall_impression": "masculine handsome asian actor features, strong bone structure, chiseled jaw, piercing eyes, william chan inspired",
+    "reference_features": "prominent cheekbones, defined facial contours, intense eye contact"
+  },
+  "skin": {
+    "skin_tone": "light medium with warm undertone",
+    "skin_texture": "photorealistic skin with visible pores, fine lines, subtle imperfections",
+    "skin_finish": "natural matte with realistic subsurface scattering",
+    "undertone": "warm",
+    "detail_level": "maximum",
+    "micro_details": "pores, fine hairs, subtle skin texture variations"
+  },
+  "makeup": {
+    "base": "natural bare skin",
+    "eye_definition": "subtle",
+    "lip_tint": "natural pink",
+    "overall_intensity": 0.1
+  },
+  "hair": {
+    "hair_length": "short to medium",
+    "hair_style": "natural textured crop, short sides, messy textured top with loose strands, effortless casual look",
+    "hair_texture": "thick with natural movement, slightly tousled",
+    "hair_color": "black",
+    "hair_shine": "natural matte finish with subtle texture",
+    "hair_product": "minimal styling, natural hold",
+    "reference_style": "effortless messy textured crop, natural loose strands"
+  },
+  "clothing": {
+    "top": {
+      "type": "tight-fitting long-sleeve top",
+      "color": "black",
+      "fit": "form-fitting smooth",
+      "length": "standard torso length",
+      "waist_position": "natural waistline, pants sit at sash level",
+      "material": "smooth stretch fabric",
+      "coverage": "full torso and arms",
+      "chest_area": "smooth flat no contour lines",
+      "note": "avoid breast definition, masculine flat chest, sash defines waistline, NOT cropped"
+    },
+    "bottom": {
+      "type": "dramatic oversized harem-style pants",
+      "color": "white",
+      "fit": "extremely voluminous exaggerated gathered at waist below sash, baggy through thighs, tapered to ankles",
+      "waist_placement": "waistband sits below black sash, sash at narrowest point of torso",
+      "material": "soft flowing fabric with natural drape and weight",
+      "length": "full length covering top of feet",
+      "cuff_style": "elastic gathered cuffs sitting low on ankles, pants bunching above",
+      "drape_quality": "heavy dramatic fall with deep fabric folds and stacking at ankles",
+      "texture_detail": "subtle weave texture visible in light",
+      "silhouette": "exaggerated wide upper leg tapering to fitted ankle, sash defines waist",
+      "visual_effect": "sash creates waist definition, pants hang from below sash"
+    },
+    "footwear": {
+      "type": "black cloth shoes",
+      "style": "traditional soft slip-on",
+      "color": "black",
+      "material": "canvas or cotton fabric",
+      "fit": "snug comfortable",
+      "visibility": "fully visible below pant cuffs"
+    },
+    "accessories": [
+      {
+        "type": "katana",
+        "placement": "waist left side",
+        "position": "hanging naturally",
+        "hand_pose": "one hand resting on hilt"
+      },
+      {
+        "type": "black fabric sash",
+        "placement": "waist",
+        "position": "wrapped around narrowest point of torso, above pant waistband",
+        "drape": "ends hanging down naturally with loose flowing fabric",
+        "length": "knee length flowing ends",
+        "width": "wide sash",
+        "function": "defines waistline, pants sit below sash",
+        "visibility": "prominently visible, clearly wraps above pant waistband"
+      }
+    ]
+  },
+  "default_pose": {
+    "stance": "standing relaxed",
+    "weight_distribution": "even",
+    "shoulder_angle": "natural level",
+    "spine_curve": "natural upright",
+    "hand_position": "right hand resting on sword hilt",
+    "gaze_direction": "forward slight downward",
+    "overall_energy": "calm composed ready",
+    "framing": "full body shot",
+    "aspect_ratio": "9:16 portrait",
+    "camera_angle": "eye level",
+    "composition": "subject centered, full figure visible from head to toe, black cloth shoes clearly visible below pant cuffs"
+  },
+  "rendering": {
+    "style": "photorealistic",
+    "detail_level": "hyper detailed maximum fidelity",
+    "texture_quality": "8K ultra high resolution",
+    "lighting_model": "physically based rendering",
+    "anti_anime": "NO anime style, NO cartoon, NO illustration, NO cel shading",
+    "realism_enhancers": "subsurface scattering, realistic skin translucency, natural fiber textures, metal wear and patina"
+  },
+  "style_tags": [
+    "young male warrior",
+    "elegant athletic build",
+    "traditional japanese inspired",
+    "minimalist clothing",
+    "confident calm demeanor",
+    "photorealistic",
+    "hyper detailed",
+    "8K resolution",
+    "NO anime",
+    "NO cartoon"
+  ]
+}
